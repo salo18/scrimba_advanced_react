@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Menu from "./components/Menu/index"
-import Star from "./components/Star"
-import Badge from './components/Badge';
+import Badge from './components/Badges/Badge';
 
 function App() {
   return (
-    <Badge />
+    <Badge color='yellow'>
+        Shop now
+    </Badge>
   )
 }
 

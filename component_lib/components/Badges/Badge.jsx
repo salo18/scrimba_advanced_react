@@ -1,7 +1,14 @@
 import React from 'react';
+import classnames from "classnames"
 
-export default function Badge() {
+
+export default function Badge({children, color = 'gray', pill = ''}) {
+    const pillBool = pill ? 'pill' : '';
+
+    const classes = classnames('badge', color, pillBool)
+
+    console.log(classes)
     return (
-        <h1>Badge</h1>
+        <div className={classes}>{children}</div>
     )
 }

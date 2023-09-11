@@ -56,13 +56,13 @@ button.button-success {
     background-color: #ECFDF5;
     border-color: #047857;
 }
- 
+
 button.button-warning {
     color: #FBBF24;
     background-color: #FFFBEB;
     border-color: #FBBF24;
 }
- 
+
 button.button-danger {
     color: #F87171;
     background-color: #FEF2F2;
@@ -118,4 +118,37 @@ button.button-danger {
 
 .box.filled {
     background-color: blue;
+}
+
+.badge {
+    display: inline-flex;
+    padding: 0.125rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem;
+    background: #F3F4F6;
+    color: #1F2937;
+text-align: center;
+/* text-sm/leading-5/font-medium */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem; /* 142.857% */
+}
+
+.badge.pill {
+    border-radius: 0.75rem;
+
+}
+
+.badge.red {
+    color: #991B1B;
+    background: #FEE2E2;
+}
+
+.badge.yellow {
+    background: #FEF3C7;
+    color: #92400E;
+
 }
